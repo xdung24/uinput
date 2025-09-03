@@ -1,0 +1,1 @@
+CGO_ENABLED=1 GOOS=linux GOARCH=386 go build -a -ldflags '-extldflags "-static"' -o uinput-x86
